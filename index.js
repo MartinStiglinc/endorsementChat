@@ -52,7 +52,7 @@ function checkCookieLikes(feedId) {
         handleLikeClick(feedId);
         setLike(feedId);
     } else {
-        alert('You cant like twice');
+        alert('Like môžete dať iba raz!');
     }
 }
 
