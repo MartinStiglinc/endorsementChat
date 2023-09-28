@@ -109,11 +109,12 @@ i {
 }
 
 .fa-solid{
-    color: #999;
+    color: red;
 }
 
 .fa-trash:hover {
-  color: red;
+  transform: scale(1.2);
+  /*color: #999;*/
 }
 
 .liked{
