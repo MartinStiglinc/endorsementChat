@@ -112,6 +112,10 @@ i {
     color: #999;
 }
 
+.fa-trash{
+  animation: mytrash 3s 1
+}
+
 .fa-trash:hover {
   transform: scale(1.2);
   /*color: #999;*/
@@ -124,5 +128,13 @@ i {
 /* utility */
 .hidden {
   display: none;
+}
+
+@keyframes mytrash
+{
+    0%      {color:#999;}
+    25%     {color:#999;}
+    75%     {color:lightred;}
+    100%    {color:red;}
 }
 
